@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        html{
+    background-size:100% 100%;
+    height: 100%;
+    overflow: auto;
+ }
+ body{
+     overflow: auto;
+     background-size:100% 100%;
+    height: 100%;
+    background: #ea5c54;
+    background: -webkit-gradient(linear,left top ,right bottom,color-stop(0%,#ea5c54),color-stop(100%,#bb6dec));
+    background: -webkit-linear-gradient(-45deg,#ea5c54 0%,#bb6dec 100%);
+    background: -webkit-linear-gradient(315deg,#ea5c54 0% ,#bb6dec 100%);
+    background: linear-gradient(135deg,#ea5c54 0%,#bb6dec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea5c54',endColorstr='#bb6dec',GradientType=1);
+ }
+ .spinner {
+  width: 80px;
+  height: 80px;
+  background-color: #e14385;
+ 
+  margin: auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+ 
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+ 
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+    </style>
+    <title>nzmzdwdzh</title>
+</head>
+
+<style>
+ .void{width: 12px; height: auto; opacity: 1;}
+</style>
+
+<div id="comingin" style="height: 100%; background-color: white;">
+    <div style="height: 38%;"></div>
+    <div class="spinner"></div>
+</div>
+</div>
+<div id="camein" style="display: none;">
+<body>
+    <nav id="nav" class="navbar navbar-default" role="navigation" style="margin-bottom:70px;">
+        <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">nzmzdwdzh</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Reaserch</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-3 col-lg-3">
+                <div class="thumbnail" style="border:0 ;display: table ;background-color: #f2f2f2; width:100%; height:100%; padding-left: 0;padding-right: 0;">
+                    <img src="./pic/pi.jpg" alt="image" style="display: table-cell; height:180px; width:180px; margin-top:45px">
+                    <div class="caption">
+                        <h3 style="text-align: center;">Yiyang Song (宋易洋)</h3>
+                        <p style="text-align:center;font-size:20px">Undergraduate</p>
+                    </div>
+                    <div style="padding: 14%; height: 120px; width: 100%; background-color: rgba(32, 34, 43, 1);">
+                        <p style="text-align: center; color: #f2f2f2; font-weight: 500; font-size: 16px;">不知是思绪点缀了流年</br>还是记忆物化了时间</p>
+                    </div>
+                    <ul style="margin: 15px auto; padding: 0 8px;">
+                        <li style="font-size: medium; list-style: none; margin: 20px auto;"><span class="glyphicon glyphicon-map-marker"></span> &nbsp;&nbsp;Dalian, China</li>
+                        <li style="font-size: medium; list-style: none; margin: 20px auto;"><span class="glyphicon glyphicon-envelope"></span> &nbsp;&nbsp;<a href="mailto:nzmzdwdzh@outlook.com" target='_blank' style="text-decoration:none;color:black;">E-mail</a></li>
+                        <li style="font-size: medium; list-style: none; margin: 20px auto;"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;&nbsp;<a href="http://27.50.175.162:8889/syy.pdf" style="text-decoration:none;color:black;" target='_blank'>Résumé</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-1">
+                <div class="flex-box" style="margin-top: 5%;display: flex; flex-direction: row; justify-content: space-around;flex-wrap:wrap">
+                    <div class="panel panel-primary" style="border-color: rgba(197,148,244); width: 48%;">
+                        <div class="panel-heading" style="border-color: rgba(197, 148, 244); background-color: rgba(197, 148, 244, 0.7);">
+                            <h3 class="panel-title" style="color:#531bc3;">ABOUT ME</h3>
+                        </div>
+                        <div class="panel-body" style="border-color: rgba(197, 148, 244);height: auto;">
+                            <ul style=" list-style-type: none;">
+                                <li>I am a junior at DLUT.</li>
+                                <li>My research is in Machine Learning.</li>
+                                <li>I mostly code in python and cpp.</li>
+                                <li><span class="glyphicon glyphicon-music"></span> I am a guitar enthusiast.</li>
+                                <li>My favorite sport is basketball.</li>
+                            </ul>     
+                        </div>
+                    </div>
+                    <div class="void">
+                    </div>
+                    <div class="panel panel-info" style="width: 48%; height:auto ;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">MUSIC</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li> I play guitar in the school band.</li>
+                                <li>I write original music, including lyrics and music.</li>
+                                <a href="https://music.163.com/#/artist?id=34576491" target="_blank">CloudMusic Homepage</a>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="flex-box" style="margin-top: 5%;display: flex; flex-direction: row; justify-content: space-around;flex-wrap:wrap">
+                    <div class="panel panel-success" style="width: 48%;min-height: 198px ;height:auto;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">RESEARCH</h3>
+                        </div>
+                        <div class="panel-body">
+                            My research is in Salient Object Detection (SOD),</br>
+                            and my focus is on the following challenging issues:
+                            <li>How to design the loss function, especially for balance with multiple loss functions</li>
+                            <li>How to fuse RGB features with other modal features such as depth <li>features or light field features</li>
+                            How to capture multi-scale features to enhance CNNs-based SOD model</li>
+                        </div>
+                    </div>   
+                    <div class="void">
+                    </div>
+                    <div class="panel panel-danger" style="border-color: #ffd59a;width: 48%; height:auto;">
+                        <div class="panel-heading" style="border-color: #ffd59a ; background-color: #ffdeb0;">
+                            <h3 class="panel-title">PROJECT</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><a href="http://27.50.175.162:319" target="_blank">CVTG: CV Testing Ground</a></br>
+                            （A Computer Vision project for experience and testing） 
+                            </br>
+                            CHORM: Chord Master
+                            </br>
+                            （A Music Information Retrieval and Music Education project）
+                            </p>
+                            <div class="flexbox" style="margin-top: 8%;display: flex; flex-direction: row; justify-content: space-around;">
+                                <img src="./pic/CVTG.jpg" alt="图片" style="height: 42px; width: 110px;">
+                                <img src="./pic/pic1.png" alt="图片" style="height: 42px; width: 42px;">
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onresize = function(){  
+            var h = document.documentElement.clientHeight || document.body.clientHeight;
+            if(h > 1000)
+                document.getElementById("nav").style.marginBottom = "150px";
+            else
+                document.getElementById("nav").style.marginBottom = "70px";
+        }   
+        function comingin(){
+        document.getElementById('comingin').style.display = "none";
+        document.getElementById('camein').style.display = "initial";
+    }
+    setTimeout("comingin()",1000);
+</script>
+</body>
+</div>
+</html>
